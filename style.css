@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+:root{
+    --colorBG: #B51111;
+    --color1: #6B0000;
+    --colortext1: #FFF283;
+    --color2: #FF970F;
+    --color3: #FFE2E2;
+}
+
+body{
+    color: var(--colortext1);
+background: var(--colorBG);
+
+}
+
+.header{
+    font-family: Days One;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerText{
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+
+/** ooo ma ga **/
